@@ -41,7 +41,13 @@ def fetch(session: requests.Session, url: str) -> Optional[str]:
     """GET a URL and return response text or None on error."""
     log = logging.getLogger("fetch")
     try:
-        r = session.get(url, timeout=REQUEST_TIMEOUT)
+        r = session.get(
+            url,
+            timeout=REQUEST_TIMEOUT,
+            headers={
+                "User-Agent": "Mozilla/5.0"
+            }
+        )
         if r.status_code != 200:
             log.warning("Non-200 (%s) for %s", r.status_code, url)
             return None
