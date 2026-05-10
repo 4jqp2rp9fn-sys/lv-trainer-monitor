@@ -70,9 +70,12 @@ def search(session, keywords: List[str]) -> List[Dict]:
         url = _build_url(kw)
         log.info("Fetching Rakuten: %s", url)
         html = fetch(session, url)
-        print(html[:3000])
+
         if not html:
+            print("HTML IS NONE")
             continue
+
+        print(html[:5000])
         for item in _parse(html):
             if item["url"] in seen_urls:
                 continue
