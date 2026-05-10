@@ -82,3 +82,4 @@ def search(session, keywords: List[str]) -> List[Dict]:
     log.info("Rakuten: %d items collected.", len(out))
     return out
 
+
