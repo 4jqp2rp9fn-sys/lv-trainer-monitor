@@ -1,0 +1,35 @@
+name: LV Monitor
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run monitor
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python main.py
+
+      - name: Commit seen.json
+        run: |
+          git config --global user.name github-actions
+          git config --global user.email actions@github.com
+          git add seen.json
+          git commit -m "update seen items" || echo "no changes"
+          git push
