@@ -33,7 +33,8 @@ STORAGE_PATH = os.getenv("STORAGE_PATH", "seen.json")
 KEYWORDS = [
     "LV Trainer",
     "Louis Vuitton trainer",
-    "ヴィトン トレイナー",
+    "ヴィトン トレーナー",
+    "ヴィトン トレイナー"
 ]
 
 # --- Behavior ---
