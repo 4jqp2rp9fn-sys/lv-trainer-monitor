@@ -31,20 +31,25 @@ STORAGE_PATH = os.getenv("STORAGE_PATH", "seen.json")
 
 # --- Search keywords (easy to extend) ---
 KEYWORDS = [
-    "LV Trainer",
-    "Louis Vuitton trainer",
-    "ヴィトン トレーナー",
-    "ヴィトン トレイナー",
-    "Alexander Digenova",
+    # sneakers
+    "LV Trainer FD 0252",
+    "Louis Vuitton trainer FD 0252",
+    "ヴィトン トレーナー FD 0252",
+    "ヴィトン トレイナー FD 0252",
     "chanel ハイカット",
-    "chanel g32222",
-    "balenciaga 720511",
-    "courreges 123DPA052DE00167011",
-    "BALENCIAGA 675244",
-    "gosha adidas スウェットパンツ",
-    "gosha adidas G013P103",
+    "chanel g32222"
+
+    # tops
+    "Alexander Digenova",
     "rue porter パーカー",
     "vetements tonal logo hoodie"
+
+    # pants
+    "courreges 123DPA052DE00167011",
+    "gosha adidas スウェットパンツ",
+    "gosha adidas G013P103",
+    "balenciaga 720511",
+    "BALENCIAGA 675244"    
 
 ]
 
