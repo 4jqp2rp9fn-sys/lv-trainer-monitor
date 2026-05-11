@@ -43,7 +43,8 @@ KEYWORDS = [
     "BALENCIAGA 675244",
     "gosha adidas スウェットパンツ",
     "gosha adidas G013P103",
-    "rue porter パーカー"
+    "rue porter パーカー",
+    "vetements tonal logo hoodie"
 
 ]
 
