@@ -38,9 +38,8 @@ KEYWORDS = [
     "ヴィトン トレイナー FD 0252",
     "chanel ハイカット",
     "chanel g32222",
-    "cros bae taupe",
+    "crocs bae taupe",
     "crocs ベイ トープ"
-
 
     # tops
     "Alexander Digenova",
