@@ -66,17 +66,7 @@ def main() -> None:
     session = build_session()
     store = SeenStore(STORAGE_PATH)
 
-    while True:
-        cycle_start = time.time()
-        try:
-            run_once(session, store)
-        except Exception:
-            log.exception("Unhandled error in poll cycle.")
-        elapsed = time.time() - cycle_start
-        sleep_for = max(5, POLL_INTERVAL_SECONDS - int(elapsed))
-        log.info("Cycle done in %.1fs. Sleeping %ss.", elapsed, sleep_for)
-        time.sleep(sleep_for)
-
+    run_once(session, store)
 
 if __name__ == "__main__":
     main()
