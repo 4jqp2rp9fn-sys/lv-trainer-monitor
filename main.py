@@ -22,7 +22,7 @@ log = logging.getLogger("main")
 
 SCRAPERS = [
     ("Rakuten", scraper_rakuten.search),
-    ("2nd STREET", scraper_2ndstreet.search),
+    #("2nd STREET", scraper_2ndstreet.search),
 ]
 
 
