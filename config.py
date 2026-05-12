@@ -42,7 +42,9 @@ KEYWORDS = [
     # tops
     "Alexander Digenova",
     "rue porter パーカー",
-    "vetements tonal logo hoodie"
+    "vetements tonal logo hoodie",
+    "Polo Ralph Lauren ループバック フルジップ フーティ MNPOKNI16824976001",
+    "ポロ ラルフ ローレン ループバック フルジップ フーティ MNPOKNI16824976001"
 
     # pants
     "courreges 123DPA052DE00167011",
