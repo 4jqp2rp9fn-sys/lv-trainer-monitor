@@ -33,27 +33,27 @@ STORAGE_PATH = os.getenv("STORAGE_PATH", "seen.json")
 KEYWORDS = [
     # sneakers
     "LV Trainer FD 0252",
-    "Louis Vuitton trainer FD 0252",
-    "ヴィトン トレーナー FD 0252",
-    "ヴィトン トレイナー FD 0252",
-    "chanel ハイカット",
+    #"Louis Vuitton trainer FD 0252",
+    #"ヴィトン トレーナー FD 0252",
+    #"ヴィトン トレイナー FD 0252",
+    #"chanel ハイカット",
     "chanel g32222",
-    "crocs bae taupe",
-    "crocs ベイ トープ"
+    #"crocs bae taupe",
+    #"crocs ベイ トープ"
 
     # tops
-    "Alexander Digenova",
+    #"Alexander Digenova",
     "rue porter パーカー",
-    "vetements tonal logo hoodie",
+    #"vetements tonal logo hoodie",
     "Polo Ralph Lauren ループバック フルジップ フーティ MNPOKNI16824976001",
-    "ポロ ラルフ ローレン ループバック フルジップ フーティ MNPOKNI16824976001"
+    #"ポロ ラルフ ローレン ループバック フルジップ フーティ MNPOKNI16824976001"
 
     # pants
-    "courreges 123DPA052DE00167011",
-    "gosha adidas スウェットパンツ",
-    "gosha adidas G013P103",
-    "balenciaga 720511",
-    "BALENCIAGA 675244"    
+    #"courreges 123DPA052DE00167011",
+    #"gosha adidas スウェットパンツ",
+    #"gosha adidas G013P103",
+    #"balenciaga 720511",
+    #"BALENCIAGA 675244"    
 
 ]
 
